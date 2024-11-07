@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="todolist_styles.css" rel="stylesheet" />
+    <title>To Do List</title>
+	<!-- <script src="./app.js" defer></script> -->
+	
+  </head>
+  <body>
+  	<div id="wrapper">
+	    <header>
+	    	<div id="page-banner">
+	    		<h1 class="title"> To Do List</h1>
+          <p>List</p>
+          <form id="search-books">
+            <input type="text" id="search-input" placeholder="Search to do list.." />
+          </form>
+	    	</div>
+	    </header>
+	    <div id="book-list">
+	    	<h2 class="title">Tasks to do</h2>
+	    	<ul id="book-ul">
+
+	    		<li>
+						
+						<span class="checkmark">
+						<input type="checkbox"></span> 
+	    			<span class="name">Laundry early in the morrning</span>
+					
+						<span class="done">Done</span>
+						<span class="delete">delete</span>
+					
+	    		</li>
+	    		<li>
+						<input type="checkbox">
+						<span class="checkmark"></span>
+	    			<span class="name">Sending Samuel to Japan</span>
+						<span class="done">Done</span>
+						<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+						<input type="checkbox">
+						<span class="checkmark"></span>
+	    			<span class="name">Shopping at te Mall</span>
+						<span class="done">Done</span>
+						<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+						<input type="checkbox">
+						<span class="checkmark"></span>
+					<span class="name">Watching late night movies</span>
+						<span class="done">Done</span>
+						<span class="delete">delete</span>
+	    		</li>
+	    	</ul>
+	    </div>
+	    <form id="add-book">
+	    	<input type="text" id="book-input" placeholder="Add a book..." />
+	    	<button type="button" class="add">Add</button>
+	    </form>
+
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
+
