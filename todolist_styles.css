@@ -2,6 +2,12 @@ body{
     font-family: Tahoma;
     color: #444;
     letter-spacing: 1px;
+    background-image: url('images/To_Do_List_01.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 h1, h2{
@@ -17,7 +23,7 @@ h1, h2{
     box-sizing: border-box;
     padding: 0 0 20px;
     overflow: hidden;
-    border: 1px solid lightgray;
+    border: 10px solid lightgray;
 }
 
 #page-banner{
@@ -46,6 +52,7 @@ h1, h2{
 
 #book-list, #add-book, #tabbed-content{
     margin: 30px;
+    background: #ffffff;
 }
 
 #book-list ul, #tabbed-content ul{
@@ -86,10 +93,6 @@ li span{
     justify-content: space-between;
     /* margin-left: 15px;
     float: right; */
-}
-
-li div{
-    /* float: right; */
 }
 
 .delete:hover{
